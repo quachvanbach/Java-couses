@@ -1,0 +1,9 @@
+import java.util.Scanner;
+
+public class GiaiPhuongTrinhBacNhat {
+	public static void main(String[] args) {
+		double a, b, x;
+		Scanner sc = new Scanner(System.in);
+		System.out.println();
+	}
+}

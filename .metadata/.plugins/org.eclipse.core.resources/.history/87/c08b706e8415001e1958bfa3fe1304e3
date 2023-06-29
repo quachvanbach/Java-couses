@@ -1,0 +1,19 @@
+
+public class Dog {
+	public (String name) {
+		super("Dog");
+
+	}
+
+	@Override
+	public void eat() {
+		System.out.println("Dog eats bones...");
+		super.eat();
+	}
+
+	@Override
+	public void makeSound() {
+		System.out.println("Gau gau");
+		super.makeSound();
+	}
+}

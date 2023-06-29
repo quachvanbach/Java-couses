@@ -1,0 +1,12 @@
+import java.util.Scanner;
+
+public class CacPhepToanCoBan {
+	public static void main(String[] args) {
+		// Khai báo biến
+		int a, b;
+		
+		// Nhập dữ liệu:
+		Scanner sc = new Scanner(System.in);
+		System.out.println();
+	}
+}

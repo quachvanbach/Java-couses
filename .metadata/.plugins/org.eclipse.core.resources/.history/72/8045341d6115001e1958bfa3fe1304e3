@@ -1,0 +1,7 @@
+import java.lang.annotation.Inherited;
+
+public class HocSinh {
+private String hoVaTen;
+private int namSinh;
+
+}

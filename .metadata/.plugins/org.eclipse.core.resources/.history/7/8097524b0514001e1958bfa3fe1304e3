@@ -1,0 +1,8 @@
+
+public class ReturnKeyword {
+	public static void main(String args) {
+		int[] n = {1,2,3,4,5};
+		var m = n.length;
+		System.out.println("123");
+	}
+}

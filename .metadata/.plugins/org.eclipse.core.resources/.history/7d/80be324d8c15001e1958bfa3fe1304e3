@@ -1,0 +1,6 @@
+
+public class MyMath {
+	public int timMin(int a, int b) {
+		
+	}
+}

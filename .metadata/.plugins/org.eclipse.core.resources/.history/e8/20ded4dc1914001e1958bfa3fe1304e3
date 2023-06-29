@@ -1,0 +1,19 @@
+public class HoaDonCaPhe {
+	private String tenLoaiCaPhe;
+	private double giaTien1Kg;
+	private double khoiLuong;
+
+	public HoaDonCaPhe(String ten, double gia, double khoiLuong) {
+		this.tenLoaiCaPhe = ten;
+		this.giaTien1Kg = gia;
+		this.khoiLuong = khoiLuong;
+	}
+
+	public double tinhTongTien() {
+		return this.giaTien1Kg * this.khoiLuong;
+	}
+
+	public boolean kiemTraKhoiLuongLonHon(double khoiLuong) {
+return 
+	}
+}

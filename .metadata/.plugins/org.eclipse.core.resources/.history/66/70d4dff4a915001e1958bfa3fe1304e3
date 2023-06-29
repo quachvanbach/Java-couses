@@ -1,0 +1,6 @@
+
+public class HinhChuNhat {
+	private double chieuRong, chieuDai;
+	
+	
+}

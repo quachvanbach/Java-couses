@@ -1,0 +1,15 @@
+
+public class ChuyenDoiKieuDuLieu {
+	public static void main(String[] args) {
+		int a = 100;
+		int b = 2;
+		
+		System.out.println("a =" + a);
+		System.out.println("b=" + b);
+		
+		float c = (float)a;
+		float d = (float)b;
+		
+		
+	}
+}

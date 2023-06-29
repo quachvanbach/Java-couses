@@ -1,0 +1,6 @@
+
+public class PhuongThucOverloading {
+	public static void main(String[] args) {
+		MyMath mm = new MyMath();
+	}
+}

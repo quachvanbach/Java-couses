@@ -1,0 +1,7 @@
+
+public class PhepToanMotNgoi {
+	public static void main(String[] args) {
+		int = 5;
+		System.out.println("");
+	}
+}

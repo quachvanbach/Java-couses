@@ -1,0 +1,9 @@
+
+public class QuanLySinhVien {
+	public static void main(String[] args) {
+		Ngay ngay1 = new Ngay(12, 05, 1995);
+		Ngay ngay2 = new Ngay(12, 05, 1995);
+		Ngay ngay3 = new Ngay(12, 05, 1995);
+		Ngay ngay1 = new Ngay(12, 05, 1995);
+	}
+}

@@ -1,0 +1,15 @@
+breadcrumb.org.eclipse.jdt.ui.JavaPerspective=true
+content_assist_autoactivation_triggers_java=.
+content_assist_disabled_computers=org.eclipse.jdt.ui.textProposalCategory\u0000org.eclipse.jdt.ui.javaPostfixProposalCategory\u0000org.eclipse.jdt.ui.javaAllProposalCategory\u0000org.eclipse.jdt.ui.javaTypeProposalCategory\u0000org.eclipse.jdt.ui.javaNoTypeProposalCategory\u0000org.eclipse.jdt.ui.javaChainProposalCategory\u0000
+content_assist_lru_history=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><history maxLHS\="100" maxRHS\="10"><lhs name\="java.util.Iterator"><rhs name\="java.util.Scanner"/></lhs><lhs name\="java.io.Closeable"><rhs name\="java.util.Scanner"/></lhs><lhs name\="java.lang.AutoCloseable"><rhs name\="java.util.Scanner"/></lhs><lhs name\="MyDate"><rhs name\="MyDate"/></lhs><lhs name\="HoaDonCaPhe"><rhs name\="HoaDonCaPhe"/></lhs><lhs name\="Ngay"><rhs name\="Ngay"/></lhs><lhs name\="TacGia"><rhs name\="TacGia"/></lhs><lhs name\="Sach"><rhs name\="Sach"/></lhs><lhs name\="HangSanXuat"><rhs name\="HangSanXuat"/></lhs><lhs name\="BoPhim"><rhs name\="BoPhim"/></lhs><lhs name\="Lop"><rhs name\="Lop"/></lhs><lhs name\="SinhVien"><rhs name\="SinhVien"/></lhs><lhs name\="QuocGia"><rhs name\="QuocGia"/></lhs><lhs name\="MayTinh"><rhs name\="MayTinh"/></lhs><lhs name\="HocSinh"><rhs name\="HocSinh"/></lhs><lhs name\="ConNguoi"><rhs name\="ConNguoi"/><rhs name\="HocSinh"/></lhs><lhs name\="Animal"><rhs name\="BabyDog"/><rhs name\="Dog"/><rhs name\="Cat"/><rhs name\="Bird"/></lhs><lhs name\="Dog"><rhs name\="BabyDog"/><rhs name\="Dog"/></lhs><lhs name\="BabyDog"><rhs name\="BabyDog"/></lhs><lhs name\="Cat"><rhs name\="Cat"/></lhs><lhs name\="Bird"><rhs name\="Bird"/></lhs><lhs name\="MyMath"><rhs name\="MyMath"/></lhs><lhs name\="ToaDo"><rhs name\="ToaDo"/></lhs><lhs name\="Hinh"><rhs name\="Diem"/><rhs name\="HinhChuNhat"/><rhs name\="HinhTron"/></lhs><lhs name\="HinhTron"><rhs name\="HinhTron"/></lhs><lhs name\="PhuongTienDiChuyen"><rhs name\="MayBay"/><rhs name\="XeDap"/><rhs name\="XeOTo"/></lhs><lhs name\="MayTinhBoTuiInterface"><rhs name\="MayTinhCasioFx500"/><rhs name\="MayTinhVinaCal500"/><rhs name\="PhanMemMayTinh"/></lhs><lhs name\="MayTinhCasioFx500"><rhs name\="MayTinhCasioFx500"/></lhs><lhs name\="MayTinhVinaCal500"><rhs name\="MayTinhVinaCal500"/></lhs><lhs name\="SapXepInterface"><rhs name\="SapXepChen"/><rhs name\="SapXepChon"/><rhs name\="PhanMemMayTinh"/></lhs><lhs name\="SapXepChen"><rhs name\="SapXepChen"/></lhs><lhs name\="SapXepChon"><rhs name\="SapXepChon"/></lhs><lhs name\="PhanMemMayTinh"><rhs name\="PhanMemMayTinh"/></lhs></history>
+content_assist_number_of_computers=20
+content_assist_proposals_background=255,255,255
+content_assist_proposals_foreground=0,0,0
+eclipse.preferences.version=1
+org.eclipse.jdt.internal.ui.navigator.layout=2
+org.eclipse.jdt.internal.ui.navigator.librariesnode=true
+org.eclipse.jdt.ui.formatterprofiles.version=23
+spelling_locale_initialized=true
+typefilter_migrated_2=true
+useAnnotationsPrefPage=true
+useQuickDiffPrefPage=true

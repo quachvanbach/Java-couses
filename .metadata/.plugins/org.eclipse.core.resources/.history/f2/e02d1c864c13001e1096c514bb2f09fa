@@ -1,0 +1,7 @@
+
+public class GiaiPhuongTrinhBacHai {
+	public static void main(String[] args) {
+		// Cú pháp: ax^2 + bx + c = 0
+		
+	}
+}

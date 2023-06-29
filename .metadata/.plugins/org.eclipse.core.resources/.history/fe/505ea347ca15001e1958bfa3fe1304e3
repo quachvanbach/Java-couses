@@ -1,0 +1,13 @@
+
+public class HieuRoVeInterface {
+	public static void main(String[] args) {
+		System.out.println("Test làm phép tính cho 2 máy tính: ");
+		MayTinhCasioFx500 mfx500 = new MayTinhCasioFx500();
+		MayTinhVinaCal500 mvn500 = new MayTinhVinaCal500();
+		
+		System.out.println("5 + 5 = "+ mfx500.cong(5, 5));
+		System.out.println("5  5 = "+ mvn500.cong(5, 5));
+		System.out.println("5 + 5 = "+ mfx500.cong(5, 5));
+		
+	}
+}

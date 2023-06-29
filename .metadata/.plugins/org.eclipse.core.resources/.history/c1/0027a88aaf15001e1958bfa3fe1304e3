@@ -1,0 +1,8 @@
+
+public class XeDap extends PhuongTienDiChuyen {
+
+	public XeDap() {
+		super("Xe Đạp");
+	}
+
+}

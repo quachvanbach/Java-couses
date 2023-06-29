@@ -1,0 +1,7 @@
+
+public class PhuongThucOverloading {
+	public static void main(String[] args) {
+		MyMath mm = new MyMath();
+		System.err.println(mm.timMin(5, 6.6));
+	}
+}

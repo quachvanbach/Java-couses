@@ -1,0 +1,11 @@
+
+public class GioiThieuVeMang {
+	public static void main(String[] args) {
+		
+//		Khai báo mảng:
+		double[] mang1;
+		double mang2[];
+		
+		mang1 = new
+	}
+}

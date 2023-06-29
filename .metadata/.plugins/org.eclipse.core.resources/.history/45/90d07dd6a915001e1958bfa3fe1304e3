@@ -1,0 +1,10 @@
+
+public class HinhTron extends Hinh {
+	private double r;
+	
+	public HinhTron(ToaDo toaDo) {
+		super(toaDo);
+		
+	}
+
+}

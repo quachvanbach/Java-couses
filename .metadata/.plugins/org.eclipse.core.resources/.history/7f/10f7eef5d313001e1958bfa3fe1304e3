@@ -1,0 +1,15 @@
+import java.util.Scanner;
+
+public class VongLapFor {
+	public static void main(String[] args) {
+		int x, y;
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Nhập vào x:");
+		x = sc.nextInt();
+		System.out.println("Nhập vào y:");
+		y = sc.nextInt();
+		for (x = 0; x <= y; x++) {
+			System.out.println("x = " + x);
+		}
+	}
+}

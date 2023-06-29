@@ -1,0 +1,20 @@
+
+public abstract class PhuongTienDiChuyen {
+	private String tenLoaiPhuongTien;
+
+	public PhuongTienDiChuyen(String tenLoaiPhuongTien) {
+		super();
+		this.tenLoaiPhuongTien = tenLoaiPhuongTien;
+	}
+
+	public String getTenLoaiPhuongTien() {
+		return tenLoaiPhuongTien;
+	}
+
+	public void setTenLoaiPhuongTien(String tenLoaiPhuongTien) {
+		this.tenLoaiPhuongTien = tenLoaiPhuongTien;
+	}
+	
+	
+
+}

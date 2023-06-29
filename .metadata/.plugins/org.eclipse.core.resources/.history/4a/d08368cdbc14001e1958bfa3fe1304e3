@@ -1,0 +1,17 @@
+
+public class QuanLySach {
+	public static void main(String[] args) {
+		Ngay ngay1 = new Ngay(12, 3, 2009);
+		Ngay ngay2 = new Ngay(05, 9, 2016);
+		Ngay ngay3 = new Ngay(26, 3, 2020);
+		
+		TacGia tacGia1 = new TacGia("Quach Bach", ngay1);
+		TacGia tacGia2 = new TacGia("Bachqv", ngay2);
+		TacGia tacGia3 = new TacGia("Quach Kaka", ngay3);
+		
+		Sach sach1 = new Sach("Java", 12800, 2021, tacGia1);
+		Sach sach2 = new Sach("Python", 12800, 2021, tacGia1);
+		Sach sach3 = new Sach("Java", 12800, 2021, tacGia1);
+		
+	}
+}

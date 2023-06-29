@@ -1,0 +1,18 @@
+import java.lang.annotation.Inherited;
+
+public class HocSinh {
+	private String hoVaTen;
+	private int namSinh;
+	private String tenLop;
+	private String tenTruong;
+	
+	public HocSinh(String hoVaTen, int namSinh, String tenLop, String tenTruong) {
+		super();
+		this.hoVaTen = hoVaTen;
+		this.namSinh = namSinh;
+		this.tenLop = tenLop;
+		this.tenTruong = tenTruong;
+	}
+
+	
+}

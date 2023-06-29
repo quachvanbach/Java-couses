@@ -1,0 +1,7 @@
+
+public class ConNguoi {
+	private String hoVaTen;
+	private int namSinh;
+	
+	
+}

@@ -1,0 +1,4 @@
+
+public class BabyDog extends Dog {
+	
+}

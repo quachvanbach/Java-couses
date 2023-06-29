@@ -1,0 +1,8 @@
+public class PhuongThucGetSet {
+	public static void main(String[] args) {
+		MyDate md = new MyDate(31, 0, 2021);
+		System.out.println("Ngày: " + md.getDay());
+		md.setDay(35);
+		System.out.println("Ngày: " + md.getDay());
+	}
+}

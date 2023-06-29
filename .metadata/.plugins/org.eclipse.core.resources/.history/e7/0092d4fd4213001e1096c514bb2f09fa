@@ -1,0 +1,8 @@
+
+public class LopMath {
+	public static void main(String[] args) {
+		int a = (int) Math.PI;
+		System.out.println(a);
+		
+	}
+}

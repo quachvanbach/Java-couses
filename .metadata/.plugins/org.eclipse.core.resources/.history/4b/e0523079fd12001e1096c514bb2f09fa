@@ -1,0 +1,4 @@
+// Hằng số tương tự với biến nhưng sẽ không thể thay đổi giá trị 
+public class HangSo {
+
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;TryCatch&apos; to &apos;TryCatchFinally&apos;&#x0D;&#x0A;- Original project: &apos;Java_27&apos;&#x0D;&#x0A;- Original element: &apos;TryCatch&apos;&#x0D;&#x0A;- Renamed element: &apos;TryCatchFinally&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;TryCatch&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;{TryCatch.java[TryCatch" matchStrategy="1" name="TryCatchFinally" qualified="false" references="true" similarDeclarations="false" stamp="1687772808337" textual="false" version="1.0"/>
+</session>

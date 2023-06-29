@@ -1,0 +1,19 @@
+
+public class QuanLyPhuongTienDiChuyen {
+	public static void main(String[] args) {
+		HangSanXuat hsx1 = new HangSanXuat("Hang 1", "VietNam");
+		HangSanXuat hsx2 = new HangSanXuat("Hang 2", "Nhat Ban");
+		HangSanXuat hsx3 = new HangSanXuat("Hang 3", "Han Quoc");
+		
+		PhuongTienDiChuyen pt1 = new MayBay(hsx2, "Xang dau");		
+		PhuongTienDiChuyen pt2 = new XeOTo(hsx3, "Xang dau");		
+		PhuongTienDiChuyen pt3 = new XeDap(hsx2);
+		
+		System.out.println("Lay ten hang san xuat: " + pt1.layTenHangSanXuat());
+		System.out.println("Bat dau: ");
+		pt2.batDau();
+		
+		System.out.println("Lay van toc: ");
+		sys
+	}
+}

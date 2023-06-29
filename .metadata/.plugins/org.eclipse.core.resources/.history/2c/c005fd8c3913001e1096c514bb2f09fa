@@ -1,0 +1,19 @@
+
+public class PhepToanMotNgoi {
+	public static void main(String[] args) {
+		int a = 5;
+		boolean b = false;
+		System.out.println("Âm (-) : "+ (-a));
+		System.out.println("Dương (+) :" + (+a));
+		System.out.println("Phủ định (!) :" + (!b));
+		
+		System.out.println("----------------------");
+		System.out.println("a = " + a);
+		System.out.println("++a = " + (++a));
+		System.out.println("a++ = " + (a++));
+		System.out.println("a = " + a);
+		System.out.println("--a = " + (--a));
+		System.out.println("a-- = " + (a--));
+		System.out.println("a = " + a);
+	}
+}

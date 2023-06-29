@@ -1,0 +1,11 @@
+
+public class PhuongThucOverride {
+	public static void main(String[] args) {
+		System.out.println("Dog");
+		Dog dog = new Dog();
+		dog.eat();
+		dog.makeSound();
+		dog.sleep();
+		
+	}
+}

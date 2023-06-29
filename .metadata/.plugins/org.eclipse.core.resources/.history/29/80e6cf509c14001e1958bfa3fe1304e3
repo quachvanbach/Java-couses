@@ -1,0 +1,6 @@
+public class PhuongThucGetSet {
+	public static void main(String[] args) {
+		MyDate md = new MyDate(31, 0, 2021);
+		
+	}
+}

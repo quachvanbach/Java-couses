@@ -1,0 +1,16 @@
+
+public class TongCongHoaDon {
+	public static void main(String[] args) {
+		HoaDonCaPhe trungNguyen = new HoaDonCaPhe("Trung Nguyen", 100, 1.5);
+		HoaDonCaPhe g7 = new HoaDonCaPhe("G7", 200, 3);
+		System.out.println("Tổng tiền: " + trungNguyen.tinhTongTien());
+		System.out.println("Khối lượng" + trungNguyen. lớn hơn 2kg không? " + trungNguyen.kiemTraKhoiLuongLonHon(2));
+		System.out.println("Khối lượng này lớn hơn 1kg không? " + trungNguyen.kiemTraKhoiLuongLonHon(1));
+		System.out.println("Tổng tiền này lơn hơn 500 đúng hay sai? " + trungNguyen.kiemTraTongTienLonHon500K());
+		
+		System.out.println("Tổng tiền: " + trungNguyen.tinhTongTien());
+		System.out.println("Khối lượng này lớn hơn 2kg không? " + trungNguyen.kiemTraKhoiLuongLonHon(2));
+		System.out.println("Khối lượng này lớn hơn 1kg không? " + trungNguyen.kiemTraKhoiLuongLonHon(1));
+		System.out.println("Tổng tiền này lơn hơn 500 đúng hay sai? " + trungNguyen.kiemTraTongTienLonHon500K());
+	}
+}

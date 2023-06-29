@@ -1,0 +1,8 @@
+// Hằng số tương tự với biến nhưng giá trị sẽ không thay đổi trong quá trình chạy chương trình.
+// Để khai báo hằng số, ta thêm từ khoá final vào trước từ khoá.
+public class HangSo {
+	public static void main(String[] args) {
+		
+	}
+
+}

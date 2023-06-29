@@ -1,0 +1,8 @@
+
+public class QuanLySach {
+	public static void main(String[] args) {
+		Ngay ngay1 = new Ngay(12, 3, 2010);
+		
+		
+	}
+}

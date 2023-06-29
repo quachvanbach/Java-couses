@@ -1,0 +1,14 @@
+
+public class QuanLyRapChieuPhim {
+	public static void main(String[] args) {
+		Ngay ngay1 = new Ngay(15, 5, 2022);
+		Ngay ngay2 = new Ngay(01, 2, 2019);
+		Ngay ngay3 = new Ngay(27, 12, 2006);
+		
+		HangSanXuat hangSanXuat1 = new HangSanXuat("Hãng A", "Việt Nam");
+		HangSanXuat hangSanXuat2 = new HangSanXuat("Hãng B", "Mỹ");
+		HangSanXuat hangSanXuat3 = new HangSanXuat("Hãng A", "Việt Nam");
+		
+		BoPhim boPhim1 = new BoPhim("Phim gì đó", 2023, hangSanXuat3, 0, ngay3)
+	}
+}
