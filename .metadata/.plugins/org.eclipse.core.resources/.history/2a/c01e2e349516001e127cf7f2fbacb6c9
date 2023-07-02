@@ -1,0 +1,10 @@
+package test;
+
+import code.ViDu;
+
+public class TestViDu {
+	public static void main(String[] args) {
+		ViDu viDu = new ViDu(5, 6);
+		System.out.println(viDu.getA());
+	}
+}
