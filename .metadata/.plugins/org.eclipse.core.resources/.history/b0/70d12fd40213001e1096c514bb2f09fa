@@ -1,7 +1,0 @@
-import java.util.Scanner;
-
-public class NhapDuLieu {
-	public static void main(String[] args) {
-		Scanner sc = new Scaner(System.in);
-	}
-}
