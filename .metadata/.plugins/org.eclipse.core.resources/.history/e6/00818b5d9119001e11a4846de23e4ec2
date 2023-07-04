@@ -1,0 +1,30 @@
+import java.util.ArrayList;
+
+public class DanhSachSinhVien {
+	private ArrayList<SinhVien> danhSach;
+
+	public DanhSachSinhVien() {
+		this.danhSach = new ArrayList<SinhVien>();
+	}
+
+	public DanhSachSinhVien(ArrayList<SinhVien> danhSach) {
+		this.danhSach = danhSach;
+	}
+
+	// 1. Thêm Sinh viên vào danh sách:
+	public void themSinhVien(SinhVien sv) {
+		this.danhSach.add(sv);
+	}
+
+	// 2. In danh sách Sinh viên ra màn hình:
+	public void inDanhSachSinhVien() {
+		for(SinhVien )
+	}
+	
+	
+	@Override
+	public String toString() {
+		return "DanhSachSinhVien [danhSach=" + danhSach + "]";
+	}
+
+}

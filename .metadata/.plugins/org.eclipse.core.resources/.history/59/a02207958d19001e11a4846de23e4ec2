@@ -1,0 +1,7 @@
+
+public class QuanLySinhVien {
+	public static void main(String[] args) {
+		DanhSachSinhVien danhSachSinhVien = new DanhSachSinhVien();
+		System.out.println(danhSachSinhVien);
+	}
+}

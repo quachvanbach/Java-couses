@@ -1,0 +1,10 @@
+
+public class TimKiemChuoi {
+	public static void main(String[] args) {
+		String s1 = "Nguyễn Văn A. Ngày sinh: 01-01-1991. Địa chỉ: Thanh Xá, Thanh Hà, Hải Dương";
+		String s2 = "Họ tên: Mạc Văn B. Ngày sinh: 02-02-1992. Địa chỉ: Thanh Thuỷ, Thanh Hà, Hải Dương";
+		
+		// Hàm indexOf:
+		System.out.println(s1.indexOf("Nguyễn Văn A"));
+	}
+}

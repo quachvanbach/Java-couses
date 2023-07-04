@@ -1,0 +1,27 @@
+import java.util.Arrays;
+
+public class MangVaCachCopyMang {
+	public static void main(String[] args) {
+		// Kiểu nguyên thuỷ:
+		int[] mang1 = { 1, 2, 3 };
+
+		// Copy mảng bằng toán tử gán:
+		int[] mang1_a = mang1;
+		mang1_a[0] = 100;
+		System.out.println(Arrays.toString(mang1));
+		System.out.println(Arrays.toString(mang1_a));
+
+		// Copy mảng dùng hàm clone.
+		int[] mang1_b = mang1.clone();
+		mang1_b[0] = 50;
+		System.out.println(Arrays.toString(mang1));
+		System.out.println(Arrays.toString(mang1_b));
+
+		// Copy mảng dùng System.araycopy.
+		int[] mang1_c = new int[mang1.length];
+		System.arraycopy(mang1, 0, mang1_c, 0, mang1.length);
+		mang1_b[0] = 50;
+		System.out.println(Arrays.toString(mang1));
+		System.out.println(Arrays.toString(mang1_b));
+	}
+}

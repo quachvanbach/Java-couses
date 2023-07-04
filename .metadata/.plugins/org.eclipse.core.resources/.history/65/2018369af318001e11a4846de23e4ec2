@@ -1,0 +1,6 @@
+
+public class PhanTachChuoiThanhMang {
+	public static void main(String[] args) {
+		String s = "Chao mung den voi ngon ngu lap trinh Java, Toi la "
+	}
+}

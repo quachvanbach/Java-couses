@@ -1,0 +1,10 @@
+
+public class LamViecVoiMang {
+	public static void main(String[] args) {
+		int[] soNguyen = new int[] { 1, 2, 3, 9, 8, 7, 6 };
+		int[] soNguyen_1 = new int[15];
+		System.out.println(soNguyen.equals(soNguyen_1));
+		
+		//Hàm tìm bi
+	}
+}

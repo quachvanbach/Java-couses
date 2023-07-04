@@ -1,0 +1,35 @@
+package main;
+
+import java.util.Scanner;
+
+public class CauTrucHashSet {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		ThungPhieuDuThuong thungPhieu = new ThungPhieuDuThuong();
+		int luaChon = 0;
+		do {
+			System.out.println("------------------------------");
+			System.out.println("         ** Menu **");
+			System.out.println("1. Them ma so du thuong.");
+			System.out.println("2. Xoa ma so du thuong.");
+			System.out.println("3. Kiem tra ma so du thuong co ton tai hay khong.");
+			System.out.println("4. Xoa tat ca cac phieu du thuong.");
+			System.out.println("5. So luong phieu du thuong.");
+			System.out.println("6. Rut tham trung thuong.");
+			System.out.println("");
+			luaChon = sc.nextInt();
+
+			if (luaChon == 1 || luaChon == 2 || luaChon == 3) {
+				System.out.println("Nhap vao Ma du thuong: ");
+				String giaTri = sc.nextLine();
+				if (luaChon ==1) {
+					thungPhieu.themPhieu(giaTri);
+				} else if(luaChon==2) {
+					
+				}
+			}
+
+		} while (luaChon != 0);
+	}
+}

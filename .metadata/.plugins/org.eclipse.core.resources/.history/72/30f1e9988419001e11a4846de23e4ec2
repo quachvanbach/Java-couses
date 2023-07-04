@@ -1,0 +1,5 @@
+
+public enum Day {
+	Thứ_2, Thứ 3, Wednesday, Thursday, Friday, Saturday, Sunday
+
+}

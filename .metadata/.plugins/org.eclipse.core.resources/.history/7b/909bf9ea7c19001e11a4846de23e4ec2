@@ -1,0 +1,6 @@
+
+public class KieuDuLieuENum {
+	public static void main(String[] args) {
+		ThoiKhoaBieu tkb = new ThoiKhoaBieu(null, null)
+	}
+}

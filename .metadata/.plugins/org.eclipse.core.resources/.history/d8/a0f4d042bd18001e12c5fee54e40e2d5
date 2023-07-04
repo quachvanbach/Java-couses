@@ -1,0 +1,15 @@
+import java.util.Arrays;
+
+public class MangVaCachCopyMang {
+	public static void main(String[] args) {
+		// Kiểu nguyên thuỷ:
+		int[] mang1 = {1,2,3};
+		
+		// Copy mảng:
+		int[] mang1_a = mang1;
+		mang1_a[0] = 100;
+		System.out.println(Arrays.deepToString(mang1));
+		System.out.println(Arrays.deepToString(mang1_a));
+		
+	}
+}

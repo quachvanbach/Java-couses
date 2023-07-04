@@ -1,0 +1,26 @@
+import java.lang.reflect.Array;
+import java.util.Arrays;
+
+public class LamViecVoiMang {
+	public static void main(String[] args) {
+		int[] soNguyen_1 = new int[] { 1, 2, 3, 9, 8, 7, 6 };
+		int[] soNguyen_2 = new int[15];
+
+		System.out.println("a khoi tao: " + Arrays.toString(soNguyen_1));
+
+		// Hàm sort: Sắp xếp tăng dần:
+		Arrays.sort(soNguyen_1);
+		System.out.println("a sau khi duoc sap xep: " + Arrays.toString(soNguyen_1));
+
+		// Hàm binarySearch: hàm tìm kiếm:
+		System.out.println(Arrays.binarySearch(soNguyen_1, 8));
+		System.out.println(Arrays.binarySearch(soNguyen_2, 8));
+
+		// Hàm điền giá trị:
+
+		Arrays.fill(soNguyen_2, 5);
+		System.out.println("Mang soNguyen_2 sau khi duoc dien gia tri: " + Arrays.toString(soNguyen_2));
+		
+		int reverse = new int (x,length);
+	}
+}

@@ -1,0 +1,17 @@
+import java.util.Scanner;
+
+public class PhuongThucSoSanhChuoi {
+	public static void main(String[] args) {
+		String s1 = "titv.vn";
+		String s2 = "TITV.VN";
+		String s3 = "titv.vn";
+		
+		//Hàm equals => so sánh 2 chuỗi giống nhau, có phân biệt hoa - thường.
+		System.out.println("s1 equals s2: "+ s1.equals(s2));
+		System.out.println("s1 equals s2: "+ s1.equals(s3));
+		
+		//Hàm equalsIgnoreCase => so sánh 2 chuỗi giống nhau, không phân biệt hoa - thường.
+		System.out.println("s1 equalsIgnoreCase s2: "+ s1.equalsIgnoreCase(s2));
+		System.out.println("s1 equalsIgnoreCase s2: "+ s1.equalsIgnoreCase(s3));
+	}
+}

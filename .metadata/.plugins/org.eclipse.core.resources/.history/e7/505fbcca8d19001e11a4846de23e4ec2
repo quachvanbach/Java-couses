@@ -1,0 +1,9 @@
+import java.util.Scanner;
+
+public class QuanLySinhVien {
+	public static void main(String[] args) {
+		Scanner 
+		DanhSachSinhVien danhSachSinhVien = new DanhSachSinhVien();
+		System.out.println(danhSachSinhVien);
+	}
+}

@@ -1,0 +1,51 @@
+package main;
+
+import java.util.Random;
+import java.util.Scanner;
+
+public class LapTrinhMiniGame {
+	public static void main(String[] args) {
+		double taiKhoanNguoiChoi = 5000;
+		Scanner sc = new Scanner(System.in);
+		String luaChon = "Y";
+		do {
+			System.out.println("------------ Mời bạn lựa chọn ------------");
+			System.out.println("Chọn Y để tiếp tục chơi, Chọn N để thoát!");
+			luaChon = sc.next();
+
+			if (luaChon == "Y") {
+				System.out.println("*** Bắt đầ chơi ***");
+
+				// Đặt cược:
+				System.out
+						.println("***** Tài khoản của bạn là: " + taiKhoanNguoiChoi + " bạn muốn cược bao nhiêu? ***");
+				double datCuoc = 0;
+				do {
+					System.out.println("*****  Đặt cược ( 0 < số tiền cươc <= " + taiKhoanNguoiChoi + " )");
+					datCuoc = sc.nextDouble();
+				} while (datCuoc <= 0 || datCuoc > taiKhoanNguoiChoi);
+
+				// Lựa chọn tài xỉu
+				int luaChonTaiXiu = 0;
+				do {
+					System.out.println("*****  Chọn 1: Tài hoặc Chọn 2: Xỉu");
+					luaChonTaiXiu = sc.nextInt();
+				} while (luaChonTaiXiu != 1 && luaChonTaiXiu != 2);
+
+				// Tung xúc xắc:
+				Random xucXac1 = new Random();
+				Random xucXac2 = new Random();
+				Random xucXac3 = new Random();
+
+				int giaTri1 = xucXac1.nextInt(5) + 1;
+				int giaTri2 = xucXac2.nextInt(5) + 1;
+				int giaTri3 = xucXac3.nextInt(5) + 1;
+				int tong = giaTri1 + giaTri2 + giaTri3;
+
+				// Tính toán kết quả:
+				System.out.println("Kết quả: " + giaTri1 + " - " + giaTri2 + " - " + giaTri3);
+
+			}
+		} while (luaChon == "Y");
+	}
+}

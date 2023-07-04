@@ -1,0 +1,19 @@
+package main;
+
+import java.util.HashSet;
+import java.util.Set;
+
+public class CauTrucHashSet {
+	public static void main(String[] args) {
+		Set<String> tapHopPhieuDuThuong = new HashSet<String>();
+		int luaChon = 0;
+		do {
+			System.out.println("------------------------------");
+			System.out.println("         ** Menu **");
+			System.out.println("1. Them ma so du thuong.");
+			System.out.println("2. Xoa ma so du thuong.");
+			System.out.println("3. Kiem tra ma so du thuong co ton tai hay khong.");
+			System.out.println("4. ");
+		} while (luaChon !=0);
+	}
+}

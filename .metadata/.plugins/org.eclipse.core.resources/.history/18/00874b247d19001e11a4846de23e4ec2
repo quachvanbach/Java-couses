@@ -1,0 +1,13 @@
+
+public class KieuDuLieuENum {
+	public static void main(String[] args) {
+		ThoiKhoaBieu tkb_t2 = new ThoiKhoaBieu(Day.Monday, "Toán, Lý, Hoá");
+		ThoiKhoaBieu tkb_t3 = new ThoiKhoaBieu(Day.Tuesday, "Anh, Sinh, Sử, Địa");
+		ThoiKhoaBieu tkb_t4 = new ThoiKhoaBieu(Day.Tuesday, "Văn, Anh, Sinh");
+		ThoiKhoaBieu tkb_t5 = new ThoiKhoaBieu(Day.Thursday, "Toán, Lý, Hoá");
+		ThoiKhoaBieu tkb_t6 = new ThoiKhoaBieu(Day.Friday, "Toán, Lý, Hoá");
+		ThoiKhoaBieu tkb_t7 = new ThoiKhoaBieu(Day.Saturday, "Toán, Lý, Hoá");
+		ThoiKhoaBieu tkb_cn = new ThoiKhoaBieu(Day.Sunday, "Nghỉ");
+
+	}
+}

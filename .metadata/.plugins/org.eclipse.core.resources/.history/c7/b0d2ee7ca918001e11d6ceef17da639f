@@ -1,0 +1,6 @@
+
+public class TimKiemChuoi {
+	public static void main(String[] args) {
+		String s1 = "Quách Văn Bách, Sinh năm 1995, ";
+	}
+}

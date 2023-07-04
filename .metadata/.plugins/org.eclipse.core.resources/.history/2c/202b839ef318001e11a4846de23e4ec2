@@ -1,0 +1,13 @@
+import java.util.Arrays;
+
+public class PhanTachChuoiThanhMang {
+	public static void main(String[] args) {
+		String s = "Day la ngon ngu lap trinh Java, Chao mung den voi ngon ngu lap trinh Java.";
+	
+		String[] a = s.split("");
+		System.out.println(Arrays.toString(a));
+		
+		String[] b =s.split(",");
+		System.out.println(Arrays.toString(b));
+	}
+}

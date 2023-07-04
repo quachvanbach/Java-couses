@@ -1,0 +1,16 @@
+package main;
+
+import java.util.HashSet;
+import java.util.Set;
+
+public class ThungPhieuDuThuong {
+	private Set<String> thungPhieuDuThuong = new HashSet<String>();
+
+	public ThungPhieuDuThuong(Set<String> thungPhieuDuThuong) {
+		this.thungPhieuDuThuong = thungPhieuDuThuong;
+	}
+	
+	public boolean themPhieu(String giaTri) {
+		return this.thungPhieuDuThuong.add(giaTri);
+	}
+}

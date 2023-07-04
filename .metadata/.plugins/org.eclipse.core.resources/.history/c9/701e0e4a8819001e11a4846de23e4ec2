@@ -1,0 +1,13 @@
+
+public enum Thang {
+	Tháng_một, Tháng_hai, Tháng_ba, Tháng_bốn, Tháng_năm, Tháng_sáu, Tháng_bảy, Tháng_tám, Tháng_chín, Tháng_mười,
+	Tháng_mười_một, Tháng_mười_hai,
+	
+	private final int soNgay;
+	Thang(int soNgay){
+		this.soNgay = soNgay(){
+			
+		}
+	}
+
+}

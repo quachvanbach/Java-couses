@@ -1,0 +1,6 @@
+package vidu;
+
+public class SinhVien {
+	private int maSV;
+	
+}

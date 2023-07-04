@@ -1,0 +1,11 @@
+package main;
+
+import java.util.HashSet;
+import java.util.Set;
+
+public class CauTrucHashSet {
+	public static void main(String[] args) {
+		Set<String> tapHopPhieuDuThuong = new HashSet<String>();
+		
+	}
+}

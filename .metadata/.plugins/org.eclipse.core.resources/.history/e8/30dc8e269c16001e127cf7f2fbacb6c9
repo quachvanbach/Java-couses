@@ -1,0 +1,12 @@
+package test;
+
+import code.Infor;
+
+public class Test {
+	private Infor infor;
+
+	public void method() {
+//		this.infor.a = 4;  Không thể truy xuất được.
+//		this.infor.b = 3;  Không thể truy xuất được.
+	}
+}

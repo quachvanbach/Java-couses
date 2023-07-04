@@ -1,0 +1,14 @@
+
+public class DateTimeTrongJava {
+	public static void main(String[] args) {
+		long t1 = System.currentTimeMillis();
+		long t2 = System.currentTimeMillis();
+		
+		System.out.println("Trước khi chạy for: " + t1);
+		for (int i = 0; i < 100; i++) {
+			System.out.println("Test " + i);
+		}
+		System.out.println("Sau khi chạy for: " + t2);
+		System.out.println("Thời gian chạy for: " + (t2 - t1));
+	}
+}

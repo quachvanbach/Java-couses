@@ -1,0 +1,20 @@
+import java.util.ArrayDeque;
+
+public class Deque {
+	public static void main(String[] args) {
+		ArrayDeque<String> danhSachSV = new ArrayDeque<String>();
+		danhSachSV.offerFirst("Nguyen Van A");
+		danhSachSV.offer("Tran Van B");
+		danhSachSV.offer("Mac Van C");
+		danhSachSV.offer("Hoang Van D");
+		danhSachSV.offer("Quach Dai E");
+
+		while (true) {
+			String ten = danhSachSV.poll();
+			if (ten == null) {
+				break;
+			}
+			System.out.println(ten);
+		}
+	}
+}
