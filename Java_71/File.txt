@@ -1,0 +1,3 @@
+Đây là cách để ghi dữ liệu vào File!
+Data: 3.14 là số PI
+Student [id=1, name=Nguyen Van A]
