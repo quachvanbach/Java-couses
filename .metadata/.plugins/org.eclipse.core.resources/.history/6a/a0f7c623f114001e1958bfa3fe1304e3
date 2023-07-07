@@ -1,6 +1,0 @@
-
-public class NgaySinh {
-	private int ngay, thang, nam;
-
-	
-}

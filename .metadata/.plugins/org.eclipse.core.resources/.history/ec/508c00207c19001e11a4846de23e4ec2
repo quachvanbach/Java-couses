@@ -1,5 +1,0 @@
-
-public enum KieuDuLieuENum {
-	Monday, Tuesday, Wednesday, Thursday, Friday,
-
-}

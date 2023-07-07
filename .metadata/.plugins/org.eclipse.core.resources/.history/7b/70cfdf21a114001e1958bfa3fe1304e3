@@ -1,8 +1,0 @@
-
-public class PhuongThucToString {
-	public static void main(String[] args) {
-		MyDate md = new MyDate(12,10,2023);
-		
-		
-	}
-}

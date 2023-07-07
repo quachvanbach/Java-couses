@@ -1,7 +1,4 @@
 ./.metadata/**
-./.metadata/**/
-/.metadata/
-/.metadata/**
 ./*/.settings
 /*/.settings
 ./*/bin/**/

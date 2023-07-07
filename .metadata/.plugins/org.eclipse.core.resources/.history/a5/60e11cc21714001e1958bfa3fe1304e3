@@ -1,7 +1,0 @@
-public class HoaDonCaPhe {
-	private String tenLoaiCaPhe;
-	private double giaTien1Kg;
-	private double khoiLuong;
-	
-	
-}

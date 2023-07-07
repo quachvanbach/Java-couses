@@ -1,8 +1,0 @@
-package code;
-
-public class ViDu {
-	private Infor infor;
-	public void method() {
-//		this.infor.d = 1;  Không thể truy xuất được biến được đặt ở phạm vi private.
-	}
-}

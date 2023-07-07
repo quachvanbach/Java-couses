@@ -1,7 +1,0 @@
-import java.util.Queue;
-
-public class QueueVaDeque {
-	public static void main(String[] args) {
-		Queue<String> 
-	}
-}

@@ -1,9 +1,0 @@
-package code;
-
-public class ViDu {
-	private Infor infor;
-	public void method() {
-//		this.infor.a = 4;  Không thể truy xuất được.
-		this.infor.b = 3;
-	}
-}

@@ -1,7 +1,0 @@
-
-public class GioiThieuVeMang {
-	public static void main(String[] args) {
-		double[] mang1;
-		double mang2[];
-	}
-}

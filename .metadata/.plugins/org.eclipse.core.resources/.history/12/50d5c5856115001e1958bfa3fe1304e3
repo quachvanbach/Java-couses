@@ -1,7 +1,0 @@
-
-public class TinhKeThua {
-	public static void main(String[] args) {
-
-		HocSinh hocSinh1 = new HocSinh(null);
-	}
-}

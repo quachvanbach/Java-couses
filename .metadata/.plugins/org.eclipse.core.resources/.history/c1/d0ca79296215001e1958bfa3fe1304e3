@@ -1,8 +1,0 @@
-
-public class TinhKeThua {
-	public static void main(String[] args) {
-
-		ConNguoi cn = new ConNguoi("bachqv", 1995);
-		cn.an();
-	}
-}
