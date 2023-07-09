@@ -1,8 +1,0 @@
-
-public class Ngay {
-	private int ngay, thang, nam;
-
-	public Ngay(ngay, thang, nam) {
-		
-	}
-}

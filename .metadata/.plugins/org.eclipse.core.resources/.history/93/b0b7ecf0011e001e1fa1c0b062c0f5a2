@@ -1,0 +1,17 @@
+package view;
+
+import model.CounterModel;
+
+public class CounterView {
+	private CounterModel counterModel;
+	
+	public CounterView() {
+		this.counterModel = new CounterModel();
+		this.init();
+	}
+
+	private void init() {
+		
+		
+	}
+}

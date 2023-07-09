@@ -1,5 +1,0 @@
-package test;
-
-public class Sub_Infor extends Infor{
-
-}

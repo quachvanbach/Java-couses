@@ -1,7 +1,0 @@
-package test;
-
-import Infor;
-
-public class Sub_Infor extends Infor {
-
-}

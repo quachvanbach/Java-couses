@@ -1,0 +1,20 @@
+package view;
+
+import javax.swing.JFrame;
+
+import model.LastButtonModel;
+
+public class LastButtonView extends JFrame {
+	private LastButtonModel lastButtonModel;
+
+	LastButtonView() {
+		this.lastButtonModel = new LastButtonModel();
+
+		this.init();
+	}
+
+	private void init() {
+		// TODO Auto-generated method stub
+		
+	}
+}

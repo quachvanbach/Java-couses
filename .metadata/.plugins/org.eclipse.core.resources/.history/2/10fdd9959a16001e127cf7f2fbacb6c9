@@ -1,8 +1,0 @@
-package code;
-
-public class Sub_Infor extends Infor {
-	public void method() {
-		
-//		super.d; Không thể truy xuất được biến được đặt ở phạm vi private.
-	}
-}

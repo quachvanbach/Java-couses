@@ -1,0 +1,11 @@
+package view;
+
+import javax.swing.JFrame;
+
+public class GioiThieuVeJFRAME {
+	public static void main(String[] args) {
+		JFrame jf = new JFrame();
+		jf.setVisible(true);
+		jf.setSize(400,600);
+	}
+}

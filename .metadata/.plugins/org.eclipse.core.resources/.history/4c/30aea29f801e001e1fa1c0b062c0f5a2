@@ -1,0 +1,9 @@
+package main;
+
+import model.LastButtonModel;
+
+public class FontChuVaKichCo {
+	public static void main(String[] args) {
+		new LastButtonView();
+	}
+}

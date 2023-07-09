@@ -1,0 +1,11 @@
+import java.io.File;
+
+public class XoaTapTinVaThuMuc {
+	public static void main(String[] args) {
+		File fd0 = new File("C:\\Users\\quach\\eclipse-workspace\\Java_69\\F0");
+		File fd0_1 = new File("C:\\Users\\quach\\eclipse-workspace\\Java_69\\F0_1");
+		File f0 = new File("C:\\Users\\quach\\eclipse-workspace\\Java_69\\abc.txt");
+
+		fd0.delete();
+	}
+}

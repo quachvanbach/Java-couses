@@ -1,0 +1,16 @@
+package view;
+
+import javax.swing.JFrame;
+
+public class MyWindow extends JFrame{
+	
+	public MyWindow() {
+		
+	}
+	
+	public void show() {
+		this.setVisible(true);
+	}
+	
+	
+}

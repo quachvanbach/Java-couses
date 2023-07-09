@@ -1,5 +1,0 @@
-
-public interface MayTinhBoTuiInterface {
-	public double cong(double a, double b);
-	
-}

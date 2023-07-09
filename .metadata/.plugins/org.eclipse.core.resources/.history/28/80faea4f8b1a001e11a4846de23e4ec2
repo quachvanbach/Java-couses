@@ -1,0 +1,18 @@
+import java.util.Scanner;
+
+public class LamViecVoiTapTinVaThuMuc {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		int luaChon = 0;
+		do {
+			System.out.println("========================");
+			System.out.println("         Menu");
+			System.out.println("1. Kiểm tra File có thể thực thi: ");
+			System.out.println("2. Kiểm tra File có thể đọc: ");
+			System.out.println("3. Kiểm tra File có thể ghi: ");
+			System.out.println("4. In đường dẫn: ");
+			System.out.println("5. Lấy tên File: ");
+			System.out.println("6. Kiểm tra : ");
+		} while(luaChon!=0);
+	}
+}

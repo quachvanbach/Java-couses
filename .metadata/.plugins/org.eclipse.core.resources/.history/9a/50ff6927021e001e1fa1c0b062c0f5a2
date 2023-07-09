@@ -1,0 +1,28 @@
+package view;
+
+import javax.swing.JButton;
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+
+import model.CounterModel;
+
+public class CounterView extends JFrame {
+	private CounterModel counterModel;
+	private JButton jButton_up;
+	private JButton jButton_down;
+	private JLabel jLabel_value;
+
+	public CounterView() {
+		this.counterModel = new CounterModel();
+		this.init();
+		this.setVisible(true);
+	}
+
+	private void init() {
+		this.setTitle("Counter");
+		
+		this.setSize(300,300);
+		this.setLocationRelativeTo(null);
+		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+	}
+}

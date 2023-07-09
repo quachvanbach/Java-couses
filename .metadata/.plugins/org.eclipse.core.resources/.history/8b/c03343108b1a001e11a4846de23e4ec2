@@ -1,0 +1,13 @@
+import java.util.Scanner;
+
+public class LamViecVoiTapTinVaThuMuc {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		int luaChon = 0;
+		do {
+			System.out.println("========================");
+			System.out.println("         Menu");
+			System.out.println("1. ");
+		} while(luaChon!0);
+	}
+}

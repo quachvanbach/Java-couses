@@ -1,8 +1,0 @@
-
-public class TongCongHoaDon {
-	public static void main(String[] args) {
-		HoaDonCaPhe hd = new HoaDonCaPhe("Trung Nguyen", 100, 1.5);
-		System.out.println("Tổng tiền: " + hd.tinhTongTien());
-		System.out.println("");
-	}
-}

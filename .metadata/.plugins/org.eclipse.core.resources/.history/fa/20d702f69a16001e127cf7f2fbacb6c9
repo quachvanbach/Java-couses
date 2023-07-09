@@ -1,9 +1,0 @@
-package code;
-
-public class Sub_Infor extends Infor {
-	public void method() {
-		
-//		super.a; Không thể truy xuất được.
-		super.b; 
-	}
-}

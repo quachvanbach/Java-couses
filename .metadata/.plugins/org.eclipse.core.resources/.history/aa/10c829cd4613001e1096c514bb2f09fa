@@ -1,9 +1,0 @@
-import java.util.Scanner;
-
-public class BaiTapHinhTron {
-	public static void main(String[] args) {
-		double r, dienTich, chuVi;
-		Scanner sc = new Scanner(System.in);
-		
-	}
-}

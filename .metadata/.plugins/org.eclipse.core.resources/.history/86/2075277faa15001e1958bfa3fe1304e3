@@ -1,6 +1,0 @@
-
-public class PhuonThucTruuTuongAbstract {
-	public static void main(String[] args) {
-		ToaDo td1 = new ToaDo()
-	}
-}

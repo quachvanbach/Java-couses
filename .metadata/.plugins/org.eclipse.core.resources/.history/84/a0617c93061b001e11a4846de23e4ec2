@@ -1,0 +1,31 @@
+import java.io.File;
+
+public class XoaTapTinVaThuMuc {
+
+	public static void xoaFile(File fx) {
+		if (fx.isFile()) {
+			fx.delete();
+		} else if (fx.isDirectory()) {
+			File[] mangCon = fx.listFiles();
+			for (File file : mangCon) {
+				xoaFile(file);
+			}
+			fx.delete();
+		}
+	}
+
+	public static void main(String[] args) {
+		File fd0 = new File("C:\\Users\\quach\\eclipse-workspace\\Java_69\\F0");
+		File fd0_1 = new File("C:\\Users\\quach\\eclipse-workspace\\Java_69\\F0_1");
+		File f0 = new File("C:\\Users\\quach\\eclipse-workspace\\Java_69\\abc.txt");
+
+//		Hàm delete()
+		fd0.delete(); // => Không xoá được.
+		fd0_1.delete();
+
+//		Hàm deleteOnExit()
+		f0.deleteOnExit();
+		fd0.deleteOnExit();
+
+	}
+}

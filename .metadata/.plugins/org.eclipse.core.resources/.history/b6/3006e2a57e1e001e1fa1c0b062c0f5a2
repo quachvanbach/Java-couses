@@ -1,0 +1,19 @@
+package model;
+
+public class LastButtonModel {
+	private int value;
+
+	public LastButtonModel(int value) {
+		this.value = value;
+	}
+
+	public int getValue() {
+		return value;
+	}
+
+	public void setValue(int value) {
+		this.value = value;
+	}
+	
+	
+}

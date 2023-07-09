@@ -1,7 +1,0 @@
-package main;
-
-public class LapTrinhMiniGame {
-	public static void main(String[] args) {
-		
-	}
-}

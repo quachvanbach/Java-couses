@@ -1,5 +1,0 @@
-import java.lang.annotation.Inherited;
-
-public class HocSinh {
-	Inherited ConNguoi;
-}

@@ -1,0 +1,10 @@
+package main;
+
+import model.CounterModel;
+
+public class ApDungMoHinhMVC {
+	public static void main(String[] args) {
+		CounterModel ct = new CounterModel();
+
+	}
+}

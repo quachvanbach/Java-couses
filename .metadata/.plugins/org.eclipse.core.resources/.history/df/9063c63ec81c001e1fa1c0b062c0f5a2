@@ -1,0 +1,47 @@
+package view;
+
+import java.awt.FlowLayout;
+
+import javax.swing.JButton;
+import javax.swing.JFrame;
+import javax.swing.JTextField;
+
+public class MyCalculator extends JFrame {
+	public MyCalculator() {
+		this.setTitle("My Calculator");
+		this.setSize(300, 600);
+		this.setLocationRelativeTo(null);
+		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+
+		JTextField jTextFiled = new JTextField(10);
+		
+
+
+		JButton jButton_0 = new JButton("0");
+		JButton jButton_1 = new JButton("1");
+		JButton jButton_2 = new JButton("2");
+		JButton jButton_3 = new JButton("3");
+		JButton jButton_4 = new JButton("4");
+		JButton jButton_5 = new JButton("5");
+		JButton jButton_6 = new JButton("6");
+		JButton jButton_7 = new JButton("7");
+		JButton jButton_8 = new JButton("8");
+		JButton jButton_9 = new JButton("9");
+		JButton jButtonCong = new JButton("+");
+		JButton jButtonTru = new JButton("-");
+		JButton jButtonNhan = new JButton("*");
+		JButton jButtonChia = new JButton("/");
+		JButton jButtonBang = new JButton("=");
+		
+		this.add(jTextFiled);
+
+		this.setLayout(new FlowLayout());
+
+		this.setVisible(true);
+	}
+
+	public static void main(String[] args) {
+		new MyCalculator();
+	}
+
+}

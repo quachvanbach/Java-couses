@@ -1,9 +1,0 @@
-
-public class MultiInheritance {
-	public static void main(String[] args) {
-		Dog babyDog = new Dog();
-		babyDog.eat();
-		babyDog.bark();
-		babyDog.we
-	}
-}

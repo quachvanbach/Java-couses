@@ -1,8 +1,7 @@
-./.metadata/**
-./.metadata/**/
-/.metadata/
-/.metadata/**
-./*/.settings
-/*/.settings
-./*/bin/**/
+.metadata/
+.metadata/**
+./*/bin/
 ./*/bin/**
+./*/.settings
+./*/.settings/**
+./*/.gitignore

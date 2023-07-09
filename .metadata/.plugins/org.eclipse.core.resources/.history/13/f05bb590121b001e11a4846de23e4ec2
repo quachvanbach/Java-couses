@@ -1,0 +1,8 @@
+import java.io.File;
+
+public class DoiTenDiChuyenVaCopyFile {
+	public static void main(String[] args) {
+		File f0 = new File("C:\\Users\\quach\\eclipse-workspace\\Java_70\\File_1.txt");
+		
+	}
+}

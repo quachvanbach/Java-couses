@@ -1,7 +1,0 @@
-public class HocSinh extends ConNguoi {
-	private String tenLop;
-	private String tenTruong;
-	
-	
-	
-}

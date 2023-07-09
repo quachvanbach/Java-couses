@@ -1,0 +1,33 @@
+package view;
+
+import java.awt.BorderLayout;
+
+import javax.swing.JButton;
+import javax.swing.JFrame;
+
+public class BoCucBorderLayout extends JFrame {
+	public BoCucBorderLayout() {
+		this.setTitle("Thành phần và bố cục giao diện");
+		this.setSize(600, 400);
+		this.setLocationRelativeTo(null); // => Căn cửa sổ ở giữa màn hình.
+
+		// Set Layout
+		BorderLayout BorderLayout_1 = new BorderLayout();
+		BorderLayout BorderLayout_2 = new BorderLayout(BorderLayout.LEFT);
+		BorderLayout BorderLayout_3 = new BorderLayout(BorderLayout.CENTER,10,10);
+		BorderLayout BorderLayout_4 = new BorderLayout(BorderLayout.RIGHT);
+		
+		this.setLayout(BorderLayout_3);
+
+		JButton jButton_1 = new JButton("Button 1");
+		JButton jButton_2 = new JButton("Button 2");
+		JButton jButton_3 = new JButton("Button 3");
+
+		this.add(jButton_1);
+		this.add(jButton_2);
+		this.add(jButton_3);
+
+		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		this.setVisible(true);
+	}
+}

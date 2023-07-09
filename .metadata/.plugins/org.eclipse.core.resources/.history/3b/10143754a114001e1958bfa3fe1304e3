@@ -1,9 +1,0 @@
-
-public class PhuongThucToString {
-	public static void main(String[] args) {
-		MyDate md = new MyDate(12,10,2023);
-		String mdString = "Ngày " + md.getDay() + " tháng " + md.getMonth() + " năm " + md.getYear();
-		System.out.println(mdString);
-		
-	}
-}
