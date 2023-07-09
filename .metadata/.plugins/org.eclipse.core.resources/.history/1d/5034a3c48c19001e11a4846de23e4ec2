@@ -1,7 +1,0 @@
-
-public class SinhVien {
-	private String maSinhVien;
-	private String hoVaTen;
-	private int namSinh;
-	private float diemTrungBinh;
-}

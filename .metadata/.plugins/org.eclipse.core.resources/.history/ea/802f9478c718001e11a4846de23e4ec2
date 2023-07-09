@@ -1,8 +1,0 @@
-
-public class LamViecVoiMang {
-	public static void main(String[] args) {
-		int[] soNguyen = n{ 1, 2, 3 };
-		int[] soNguyen_1 = { 4, 5, 6 };
-		System.out.println(soNguyen.equals(soNguyen_1));
-	}
-}

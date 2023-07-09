@@ -1,9 +1,0 @@
-package main;
-
-import java.util.HashSet;
-import java.util.Set;
-
-public class ThungPhieuDuThuong {
-	private Set<String> thungPhieuDuThuong = new HashSet<String>();
-	
-}

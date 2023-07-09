@@ -1,8 +1,0 @@
-
-public class MangVaCachCopyMang {
-	public static void main(String[] args) {
-		// Kiểu nguyên thuỷ:
-		int[] mang1 = {1,2,3};
-		
-	}
-}

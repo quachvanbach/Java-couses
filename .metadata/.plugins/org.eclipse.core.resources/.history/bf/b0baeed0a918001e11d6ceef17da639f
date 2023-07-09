@@ -1,7 +1,0 @@
-
-public class TimKiemChuoi {
-	public static void main(String[] args) {
-		String s1 = "Quách Văn Bách, Ngày sinh: 12-05-1995, Địa chỉ: Thanh Xá, Thanh Hà, Hải Dương";
-		String s2 = "Họ tên: Hù Thị Huế, Ngày sinh: 28-09";
-	}
-}
