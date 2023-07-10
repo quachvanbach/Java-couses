@@ -1,7 +1,0 @@
-import java.io.File;
-
-public class TaoTapTinVaThuMuc {
-	public static void main(String[] args) {
-		File folder1 =new File()
-	}
-}

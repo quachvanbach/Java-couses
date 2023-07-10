@@ -1,15 +1,6 @@
-<<<<<<< HEAD
-.metadata/
-.metadata/**
-./*/bin/
-./*/bin/**
-./*/.settings
-./*/.settings/**
-./*/.gitignore
-=======
-.metadata/**
-./*/.settings
-/*/.settings
-./*/bin/**/
-./*/bin/**
->>>>>>> acb2a6aef2acdb9c8db5939fa63bfd9dd1a11520
+.metadata/*
+**/bin/*
+**/.settings/*
+.idea/
+/.metadata/
+Java-couses.iml

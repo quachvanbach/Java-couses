@@ -1,9 +1,0 @@
-import java.io.PrintWriter;
-
-public class GhiDuLieuVaoFile {
-	public static void main(String[] args) {
-		PrintWriter pw = new PrintWriter(System.out);
-		pw.println("Chao mung den voi Java");
-		pw.flush();
-	}
-}
