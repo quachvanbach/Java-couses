@@ -1,0 +1,2 @@
+Lỗi "The output path is not specified for module Java_84" xuất hiện khi IntelliJ IDEA không tìm thấy đường dẫn đầu ra (output path) cho mô-đun (module) "Java_84" trong dự án của bạn. Đường dẫn đầu ra là nơi IntelliJ IDEA lưu trữ tệp biên dịch và tệp được tạo ra khi bạn xây dựng dự án.
+
